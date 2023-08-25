@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f5f9;
+    color: #333;
+  }
+  .container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .input-group {
+    margin-bottom: 15px;
+  }
+  #taskList {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  li input {
+    margin-right: 10px;
+  }
+  button.btn-primary {
+    background-color: #000;
+    border-color: #000;
+  }
+  button.btn-primary:hover {
+    background-color: #222;
+    border-color: #222;
+  }
